@@ -1,0 +1,20 @@
+# Sample CV Content
+
+This file serves as a placeholder for your actual CV. Replace this with your actual CV in PDF format.
+
+## Instructions:
+
+1. Save your CV as a PDF file
+2. Name it `cv.pdf`
+3. Replace this file in the `assets/files/` directory
+4. Ensure the file is accessible and the download links in the website point to the correct location
+
+The website includes download buttons for the CV in:
+- Hero section
+- CV section header
+
+Make sure your CV is:
+- Professional and up-to-date
+- In PDF format for universal compatibility
+- Reasonably sized (under 5MB for web performance)
+- Accessible and readable

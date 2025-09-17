@@ -1,0 +1,66 @@
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Site settings
+title: "Dr. [Your Name] - Academic Portfolio"
+description: "Academic portfolio showcasing research, publications, and professional experience"
+url: "https://yourusername.github.io"
+baseurl: "/repository-name" # Change this to your repository name, or leave empty if using username.github.io
+
+# Author information
+author:
+  name: "Dr. [Your Name]"
+  email: "your.email@university.edu"
+
+# SEO settings
+twitter:
+  username: your_twitter_handle
+  card: summary_large_image
+
+social:
+  type: Person
+  links:
+    - https://twitter.com/your_twitter_handle
+    - https://linkedin.com/in/your_linkedin
+    - https://github.com/yourusername
+
+# Google Analytics (optional)
+# google_analytics: UA-XXXXXXXXX-X
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - DEPLOYMENT.md
+  - LICENSE
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
+  - gemfiles
+  - Gemfile.lock
+
+# Include files
+include:
+  - _pages
+  - assets
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Collections (if you want to organize content into collections later)
+collections:
+  publications:
+    output: false
+  projects:
+    output: false
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+      author: "[Your Name]"

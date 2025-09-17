@@ -1,0 +1,57 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs
+*.log
+
+# Backup files
+*.backup
+*.bak
+*~
+
+# Temporary files
+*.tmp
+*.temp
+
+# Build outputs (if using build tools)
+dist/
+build/
+
+# Local development
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Image editing files
+*.psd
+*.ai
+*.sketch
+
+# Large files (use Git LFS if needed)
+*.zip
+*.tar.gz
+*.rar
+
+# Personal notes
+notes.md
+todo.txt
+NOTES.md

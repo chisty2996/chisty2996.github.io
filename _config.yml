@@ -3,19 +3,19 @@ plugins:
   - jekyll-seo-tag
 
 # Site settings
-title: "Dr. [Your Name] - Academic Portfolio"
+title: "Md. Main Oddin Chisty - Prospective PhD Student"
 description: "Academic portfolio showcasing research, publications, and professional experience"
-url: "https://yourusername.github.io"
+url: "https://chisty2996.github.io"
 baseurl: "/repository-name" # Change this to your repository name, or leave empty if using username.github.io
 
 # Author information
 author:
-  name: "Dr. [Your Name]"
-  email: "your.email@university.edu"
+  name: "Md. Main Oddin Chisty"
+  email: "chisty2996@gmail.com"
 
 # SEO settings
 twitter:
-  username: your_twitter_handle
+  username: chisty2996
   card: summary_large_image
 
 social:
